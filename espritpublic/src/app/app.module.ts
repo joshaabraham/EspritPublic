@@ -7,6 +7,7 @@ import { HorizontalLayoutComponent } from './pages/horizontal-layout/horizontal-
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { VerticalLayoutComponent } from './pages/vertical-layout/vertical-layout.component';
 import { NavigationComponent } from './composants/navigation/navigation.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NavigationComponent } from './composants/navigation/navigation.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

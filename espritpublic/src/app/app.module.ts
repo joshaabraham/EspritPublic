@@ -9,6 +9,7 @@ import { VerticalLayoutComponent } from './pages/vertical-layout/vertical-layout
 import { NavigationComponent } from './composants/navigation/navigation.component';
 import { HttpClientModule } from '@angular/common/http';
 
+
 @NgModule({
   declarations: [
     AppComponent,
